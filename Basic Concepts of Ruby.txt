@@ -1,0 +1,82 @@
+GENERAL:
+
+print:	print the statement but doesn't put a new line after that.
+
+put: print the statement and puts a new line after that.
+
+\n: print the remaining string on the next line.
+
+gets: take input from the user and print the new line after that input.
+
+gets.chomp(): does not print new line after the input.
+
+to_i: to convert the string into integer.
+
+to_f: to convert the string into float.
+
+
+STRING FUNCTIONS:
+
+upcase(): prints the uppercase of the string.
+
+downcase(): prints the lowercase of the string.
+
+strip(): deletes all the leading and trailing whitespces in the string.
+
+length(): prints the number of character in the string.
+
+string.include? "substring": to check whether it contains that string or not.
+
+string[index_number]: to access the character at the given index.
+
+string[index_number, range]: display the character from the given index number to the range but it doesnot include the range index.
+
+index("character of a string"): prints the index_number/position of that character in the string.
+
+
+ARRAY FUNCTIONS:
+
+Array[]: to decalare an array.
+
+Array_name.reverse(): reverse the elements of array.
+
+Array_name.sort(): sort the array if you have elements of same data types otherwise it will throw an error.
+
+
+HASH:
+allowing to store multiple piece of information in key value pair. Keys are unique.
+
+Hase_name[Key]: to access the value of that key.
+
+
+METHODS:
+declared with "def method_name
+
+
+SWITCH:
+
+Case name
+	when case1
+		//do this
+	when case2
+		//do this
+	when case3
+		//do this
+	else
+		//do this
+end
+
+
+FILE:
+
+File.open("file_name"): if its in the same file of the code file.
+
+File.open("pathname/file_name"): if its not in the same file of the code file.
+
+File.open("file_name",r): to open file in the read mode 
+
+File.open("file_name",r) do |file|: to open file in the read mode and store its content in the file variable.
+
+File.open(Basic Concepts of Ruby.txt,a): To append in the existing file.
+
+File.open(Basic Concepts of Ruby.txt,r+): To read write the file at the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning File.open(Basic Concepts of Ruby.txt,r+): To read write the file starting from the beginning 
